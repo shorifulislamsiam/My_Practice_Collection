@@ -1,0 +1,59 @@
+Here all are git normal command for a user--->
+
+1. Repository add -First Flow--
+=> git init
+=> git add .
+=> git commit -m "First commit"
+=> git remote add origin repository_link
+=> git push -u origin main
+
+
+2. Next time git push flow--
+=> git status
+=> git add .
+=> git commit -m "update_commit"
+=> git push
+
+
+3. Create new branch--
+
+3.1.1 #Create branch--
+      =>git branch branch_name
+3.1.2 #Switch to the new branch--
+      =>git checkout branch_name
+
+3.2 #Shortcut for Create and Switch in one command--
+    => git checkout -b branch_name
+
+
+4. Git clone & pull from a repository (Basic command for a beginner developer)
+
+4.1 #Git clone from a repository--
+    => git clone repository_link
+
+4.2 #Check the current status for tracked and untracked directory--
+    => git status
+
+4.3 #Create and switch to a new branch--
+    => git checkout -b branch_name
+
+4.4 #Make changes, add, and commit--
+    => git add .
+    => git commit -m "Add new feature"
+
+4.5 #Push changes to the remote repository--
+    => git push origin branch_name
+
+4.6 #Now go to main branch & update latest changes from a branch--
+    => git checkout main
+    => git pull origin branch_name
+
+4.7 #Merge Branches (To merge another branch into your current branch) if needed--
+    => git merge branch-name
+
+5. Others
+
+5.1 #To show the commit history
+    => git log
+ or => git log --online
+
